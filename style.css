@@ -21,6 +21,7 @@ main {
   max-width: 300px;
   padding: 20px;
   height: 70%;
+  max-height: 549px;
   border-radius: 20px;
 }
 #qrcode {
@@ -31,6 +32,11 @@ main {
 .texto {
   margin: 5% 0px 0px 0px;
   font-family: Outfit;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 #divqr {
   width: 100%;
@@ -41,6 +47,10 @@ main {
 }
 .titulo {
   font-size: 14px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 .descricao {
   font-weight: 600;
